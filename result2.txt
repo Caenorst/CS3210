@@ -1,134 +1,115 @@
 calculation with matrice of size 1000
 1 threads:
-Matrix multiplication took 8.15 seconds
+Matrix multiplication took 8.20 seconds
 
  Performance counter stats for './mm1 1000 1':
 
-       8177.321535      task-clock (msec)         #    1.000 CPUs utilized          
-               109      context-switches          #    0.013 K/sec                  
+       8228.163102      task-clock (msec)         #    1.000 CPUs utilized          
+               112      context-switches          #    0.014 K/sec                  
                  0      cpu-migrations            #    0.000 K/sec                  
-             3,018      page-faults               #    0.369 K/sec                  
-    30,858,054,356      cycles                    #    3.774 GHz                     [83.31%]
-    14,156,568,003      stalled-cycles-frontend   #   45.88% frontend cycles idle    [83.33%]
-     2,964,950,174      stalled-cycles-backend    #    9.61% backend  cycles idle    [66.71%]
-    59,186,530,744      instructions              #    1.92  insns per cycle        
+             3,018      page-faults               #    0.367 K/sec                  
+    31,045,187,793      cycles                    #    3.773 GHz                     [83.32%]
+    14,331,433,434      stalled-cycles-frontend   #   46.16% frontend cycles idle    [83.32%]
+     2,999,106,943      stalled-cycles-backend    #    9.66% backend  cycles idle    [66.69%]
+    59,168,592,443      instructions              #    1.91  insns per cycle        
                                                   #    0.24  stalled cycles per insn [83.36%]
-     2,038,263,749      branches                  #  249.258 M/sec                   [83.36%]
-         1,091,506      branch-misses             #    0.05% of all branches         [83.31%]
+     2,039,136,019      branches                  #  247.824 M/sec                   [83.37%]
+         1,091,864      branch-misses             #    0.05% of all branches         [83.32%]
 
-       8.175636999 seconds time elapsed
+       8.226989521 seconds time elapsed
 
 2 threads:
-Matrix multiplication took 4.22 seconds
+Matrix multiplication took 4.28 seconds
 
  Performance counter stats for './mm1 1000 2':
 
-       8488.318137      task-clock (msec)         #    1.992 CPUs utilized          
-                97      context-switches          #    0.011 K/sec                  
-                 1      cpu-migrations            #    0.000 K/sec                  
-             3,018      page-faults               #    0.356 K/sec                  
-    31,266,291,583      cycles                    #    3.683 GHz                     [83.31%]
-    14,536,034,713      stalled-cycles-frontend   #   46.49% frontend cycles idle    [83.31%]
-     3,129,660,436      stalled-cycles-backend    #   10.01% backend  cycles idle    [66.71%]
-    59,177,585,985      instructions              #    1.89  insns per cycle        
-                                                  #    0.25  stalled cycles per insn [83.36%]
-     2,044,536,910      branches                  #  240.865 M/sec                   [83.40%]
-         1,088,747      branch-misses             #    0.05% of all branches         [83.29%]
-
-       4.261617441 seconds time elapsed
-
-3 threads:
-Matrix multiplication took 5.64 seconds
-
- Performance counter stats for './mm1 1000 3':
-
-      15637.943094      task-clock (msec)         #    2.753 CPUs utilized          
-               141      context-switches          #    0.009 K/sec                  
+       8576.339416      task-clock (msec)         #    1.987 CPUs utilized          
+               206      context-switches          #    0.024 K/sec                  
                  3      cpu-migrations            #    0.000 K/sec                  
-             3,027      page-faults               #    0.194 K/sec                  
-    56,095,451,273      cycles                    #    3.587 GHz                     [83.34%]
-    31,905,723,799      stalled-cycles-frontend   #   56.88% frontend cycles idle    [83.34%]
-    15,375,507,099      stalled-cycles-backend    #   27.41% backend  cycles idle    [66.68%]
-    59,172,495,916      instructions              #    1.05  insns per cycle        
-                                                  #    0.54  stalled cycles per insn [83.34%]
-     2,048,003,823      branches                  #  130.964 M/sec                   [83.36%]
-         1,094,411      branch-misses             #    0.05% of all branches         [83.29%]
+             3,017      page-faults               #    0.352 K/sec                  
+    31,238,763,585      cycles                    #    3.642 GHz                     [83.34%]
+    14,495,651,437      stalled-cycles-frontend   #   46.40% frontend cycles idle    [83.34%]
+     3,051,840,652      stalled-cycles-backend    #    9.77% backend  cycles idle    [66.69%]
+    59,180,721,511      instructions              #    1.89  insns per cycle        
+                                                  #    0.24  stalled cycles per insn [83.34%]
+     2,046,000,882      branches                  #  238.563 M/sec                   [83.34%]
+         1,087,172      branch-misses             #    0.05% of all branches         [83.32%]
 
-       5.681278893 seconds time elapsed
+       4.315788003 seconds time elapsed
 
 4 threads:
 Matrix multiplication took 2.23 seconds
 
  Performance counter stats for './mm1 1000 4':
 
-       8960.500788      task-clock (msec)         #    3.949 CPUs utilized          
-                57      context-switches          #    0.006 K/sec                  
-                 4      cpu-migrations            #    0.000 K/sec                  
-             3,022      page-faults               #    0.337 K/sec                  
-    31,250,251,816      cycles                    #    3.488 GHz                     [83.26%]
-    14,506,208,813      stalled-cycles-frontend   #   46.42% frontend cycles idle    [83.30%]
-     3,100,536,206      stalled-cycles-backend    #    9.92% backend  cycles idle    [66.67%]
-    59,159,672,026      instructions              #    1.89  insns per cycle        
+       8962.025940      task-clock (msec)         #    3.947 CPUs utilized          
+               140      context-switches          #    0.016 K/sec                  
+                 5      cpu-migrations            #    0.001 K/sec                  
+             3,021      page-faults               #    0.337 K/sec                  
+    31,258,991,802      cycles                    #    3.488 GHz                     [83.32%]
+    14,511,349,308      stalled-cycles-frontend   #   46.42% frontend cycles idle    [83.35%]
+     3,107,703,396      stalled-cycles-backend    #    9.94% backend  cycles idle    [66.70%]
+    59,164,948,261      instructions              #    1.89  insns per cycle        
                                                   #    0.25  stalled cycles per insn [83.38%]
-     2,044,676,859      branches                  #  228.188 M/sec                   [83.46%]
-         1,100,842      branch-misses             #    0.05% of all branches         [83.41%]
+     2,046,208,371      branches                  #  228.320 M/sec                   [83.47%]
+         1,100,875      branch-misses             #    0.05% of all branches         [83.25%]
 
-       2.269301676 seconds time elapsed
+       2.270707050 seconds time elapsed
 
 8 threads:
-Matrix multiplication took 2.01 seconds
+Matrix multiplication took 3.58 seconds
 
  Performance counter stats for './mm1 1000 8':
 
-      15961.126803      task-clock (msec)         #    7.770 CPUs utilized          
-               282      context-switches          #    0.018 K/sec                  
-                15      cpu-migrations            #    0.001 K/sec                  
-             3,030      page-faults               #    0.190 K/sec                  
-    55,674,886,232      cycles                    #    3.488 GHz                     [83.23%]
-    40,533,828,072      stalled-cycles-frontend   #   72.80% frontend cycles idle    [83.35%]
-    15,327,501,606      stalled-cycles-backend    #   27.53% backend  cycles idle    [66.73%]
-    59,225,118,464      instructions              #    1.06  insns per cycle        
-                                                  #    0.68  stalled cycles per insn [83.39%]
-     2,063,658,725      branches                  #  129.293 M/sec                   [83.44%]
-         1,130,436      branch-misses             #    0.05% of all branches         [83.25%]
+      26920.845078      task-clock (msec)         #    7.434 CPUs utilized          
+               574      context-switches          #    0.021 K/sec                  
+                24      cpu-migrations            #    0.001 K/sec                  
+             3,056      page-faults               #    0.114 K/sec                  
+    94,216,241,787      cycles                    #    3.500 GHz                     [83.32%]
+    74,270,963,338      stalled-cycles-frontend   #   78.83% frontend cycles idle    [83.36%]
+    40,484,333,339      stalled-cycles-backend    #   42.97% backend  cycles idle    [66.66%]
+    59,255,792,804      instructions              #    0.63  insns per cycle        
+                                                  #    1.25  stalled cycles per insn [83.35%]
+     2,063,564,271      branches                  #   76.653 M/sec                   [83.37%]
+         1,174,171      branch-misses             #    0.06% of all branches         [83.29%]
 
-       2.054078085 seconds time elapsed
+       3.621357730 seconds time elapsed
 
 16 threads:
-Matrix multiplication took 2.04 seconds
+Matrix multiplication took 2.15 seconds
 
  Performance counter stats for './mm1 1000 16':
 
-      16045.455582      task-clock (msec)         #    7.723 CPUs utilized          
-             1,429      context-switches          #    0.089 K/sec                  
-                70      cpu-migrations            #    0.004 K/sec                  
-             3,049      page-faults               #    0.190 K/sec                  
-    55,963,695,546      cycles                    #    3.488 GHz                     [83.21%]
-    40,858,389,718      stalled-cycles-frontend   #   73.01% frontend cycles idle    [83.22%]
-    15,632,108,780      stalled-cycles-backend    #   27.93% backend  cycles idle    [66.80%]
-    59,223,098,886      instructions              #    1.06  insns per cycle        
-                                                  #    0.69  stalled cycles per insn [83.46%]
-     2,048,153,986      branches                  #  127.647 M/sec                   [83.51%]
-         1,147,360      branch-misses             #    0.06% of all branches         [83.26%]
+      15897.463270      task-clock (msec)         #    7.268 CPUs utilized          
+             1,089      context-switches          #    0.069 K/sec                  
+                82      cpu-migrations            #    0.005 K/sec                  
+             3,048      page-faults               #    0.192 K/sec                  
+    55,549,456,755      cycles                    #    3.494 GHz                     [83.25%]
+    40,401,587,442      stalled-cycles-frontend   #   72.73% frontend cycles idle    [83.25%]
+    15,307,476,921      stalled-cycles-backend    #   27.56% backend  cycles idle    [66.75%]
+    59,158,835,636      instructions              #    1.06  insns per cycle        
+                                                  #    0.68  stalled cycles per insn [83.40%]
+     2,046,745,263      branches                  #  128.747 M/sec                   [83.45%]
+         1,138,540      branch-misses             #    0.06% of all branches         [83.31%]
 
-       2.077627334 seconds time elapsed
+       2.187305196 seconds time elapsed
 
 32 threads:
 Matrix multiplication took 2.04 seconds
 
  Performance counter stats for './mm1 1000 32':
 
-      16035.688048      task-clock (msec)         #    7.726 CPUs utilized          
-             2,025      context-switches          #    0.126 K/sec                  
-               195      cpu-migrations            #    0.012 K/sec                  
-             3,082      page-faults               #    0.192 K/sec                  
-    55,935,967,175      cycles                    #    3.488 GHz                     [83.00%]
-    40,827,886,580      stalled-cycles-frontend   #   72.99% frontend cycles idle    [83.22%]
-    15,563,700,631      stalled-cycles-backend    #   27.82% backend  cycles idle    [66.89%]
-    59,195,034,205      instructions              #    1.06  insns per cycle        
-                                                  #    0.69  stalled cycles per insn [83.55%]
-     2,047,012,347      branches                  #  127.654 M/sec                   [83.59%]
-         1,144,888      branch-misses             #    0.06% of all branches         [83.30%]
+      16136.438192      task-clock (msec)         #    7.742 CPUs utilized          
+             2,230      context-switches          #    0.138 K/sec                  
+               174      cpu-migrations            #    0.011 K/sec                  
+             3,084      page-faults               #    0.191 K/sec                  
+    56,281,833,540      cycles                    #    3.488 GHz                     [83.11%]
+    41,181,843,705      stalled-cycles-frontend   #   73.17% frontend cycles idle    [83.24%]
+    15,674,978,399      stalled-cycles-backend    #   27.85% backend  cycles idle    [66.87%]
+    59,176,341,249      instructions              #    1.05  insns per cycle        
+                                                  #    0.70  stalled cycles per insn [83.55%]
+     2,047,807,184      branches                  #  126.906 M/sec                   [83.59%]
+         1,151,476      branch-misses             #    0.06% of all branches         [83.19%]
 
-       2.075419860 seconds time elapsed
+       2.084269955 seconds time elapsed
 

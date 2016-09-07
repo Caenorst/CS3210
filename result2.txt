@@ -1,0 +1,201 @@
+calculation with matrice of size 1000
+1 threads:
+Matrix multiplication took 7.80 seconds
+
+ Performance counter stats for './mm1 1000 1':
+
+    29,509,912,387      cycles                   
+    59,182,649,969      instructions              #    2.01  insns per cycle        
+
+       7.823138597 seconds time elapsed
+
+2 threads:
+Matrix multiplication took 4.21 seconds
+
+ Performance counter stats for './mm1 1000 2':
+
+    31,170,578,423      cycles                   
+    59,193,005,826      instructions              #    1.90  insns per cycle        
+
+       4.247016173 seconds time elapsed
+
+3 threads:
+Matrix multiplication took 2.89 seconds
+
+ Performance counter stats for './mm1 1000 3':
+
+    31,136,796,360      cycles                   
+    59,197,310,728      instructions              #    1.90  insns per cycle        
+
+       2.926201684 seconds time elapsed
+
+4 threads:
+Matrix multiplication took 1.95 seconds
+
+ Performance counter stats for './mm1 1000 4':
+
+    27,392,636,346      cycles                   
+    59,197,603,588      instructions              #    2.16  insns per cycle        
+
+       1.989701720 seconds time elapsed
+
+5 threads:
+Matrix multiplication took 4.91 seconds
+
+ Performance counter stats for './mm1 1000 5':
+
+    79,257,763,648      cycles                   
+    59,217,871,622      instructions              #    0.75  insns per cycle        
+
+       4.952799398 seconds time elapsed
+
+6 threads:
+Matrix multiplication took 2.60 seconds
+
+ Performance counter stats for './mm1 1000 6':
+
+    47,050,132,862      cycles                   
+    59,214,175,979      instructions              #    1.26  insns per cycle        
+
+       2.636566167 seconds time elapsed
+
+7 threads:
+Matrix multiplication took 2.12 seconds
+
+ Performance counter stats for './mm1 1000 7':
+
+    47,235,593,598      cycles                   
+    59,237,502,282      instructions              #    1.25  insns per cycle        
+
+       2.160611293 seconds time elapsed
+
+8 threads:
+Matrix multiplication took 1.98 seconds
+
+ Performance counter stats for './mm1 1000 8':
+
+    55,278,732,954      cycles                   
+    59,252,355,026      instructions              #    1.07  insns per cycle        
+
+       2.021433016 seconds time elapsed
+
+9 threads:
+Matrix multiplication took 2.07 seconds
+
+ Performance counter stats for './mm1 1000 9':
+
+    55,081,156,817      cycles                   
+    59,195,763,310      instructions              #    1.07  insns per cycle        
+
+       2.113201148 seconds time elapsed
+
+10 threads:
+Matrix multiplication took 2.07 seconds
+
+ Performance counter stats for './mm1 1000 10':
+
+    55,378,920,709      cycles                   
+    59,196,266,827      instructions              #    1.07  insns per cycle        
+
+       2.105768298 seconds time elapsed
+
+11 threads:
+Matrix multiplication took 3.01 seconds
+
+ Performance counter stats for './mm1 1000 11':
+
+    83,304,420,148      cycles                   
+    59,201,978,063      instructions              #    0.71  insns per cycle        
+
+       3.050369737 seconds time elapsed
+
+12 threads:
+Matrix multiplication took 2.04 seconds
+
+ Performance counter stats for './mm1 1000 12':
+
+    55,577,133,812      cycles                   
+    59,196,933,758      instructions              #    1.07  insns per cycle        
+
+       2.083578617 seconds time elapsed
+
+13 threads:
+Matrix multiplication took 2.03 seconds
+
+ Performance counter stats for './mm1 1000 13':
+
+    55,582,301,799      cycles                   
+    59,197,251,618      instructions              #    1.07  insns per cycle        
+
+       2.068096865 seconds time elapsed
+
+14 threads:
+Matrix multiplication took 2.06 seconds
+
+ Performance counter stats for './mm1 1000 14':
+
+    55,343,642,889      cycles                   
+    59,197,408,781      instructions              #    1.07  insns per cycle        
+
+       2.096746973 seconds time elapsed
+
+15 threads:
+Matrix multiplication took 2.83 seconds
+
+ Performance counter stats for './mm1 1000 15':
+
+    78,211,604,506      cycles                   
+    59,204,144,038      instructions              #    0.76  insns per cycle        
+
+       2.872069823 seconds time elapsed
+
+16 threads:
+Matrix multiplication took 1.85 seconds
+
+ Performance counter stats for './mm1 1000 16':
+
+    51,061,908,702      cycles                   
+    59,195,490,315      instructions              #    1.16  insns per cycle        
+
+       1.885942122 seconds time elapsed
+
+17 threads:
+Matrix multiplication took 2.05 seconds
+
+ Performance counter stats for './mm1 1000 17':
+
+    56,339,173,109      cycles                   
+    59,198,320,541      instructions              #    1.05  insns per cycle        
+
+       2.087199731 seconds time elapsed
+
+18 threads:
+Matrix multiplication took 2.82 seconds
+
+ Performance counter stats for './mm1 1000 18':
+
+    77,827,507,987      cycles                   
+    59,205,136,053      instructions              #    0.76  insns per cycle        
+
+       2.858897417 seconds time elapsed
+
+19 threads:
+Matrix multiplication took 2.07 seconds
+
+ Performance counter stats for './mm1 1000 19':
+
+    56,815,769,127      cycles                   
+    59,199,291,626      instructions              #    1.04  insns per cycle        
+
+       2.109089709 seconds time elapsed
+
+20 threads:
+Matrix multiplication took 2.01 seconds
+
+ Performance counter stats for './mm1 1000 20':
+
+    54,929,298,891      cycles                   
+    59,197,252,776      instructions              #    1.08  insns per cycle        
+
+       2.043579610 seconds time elapsed
+
